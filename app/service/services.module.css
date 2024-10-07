@@ -1,0 +1,45 @@
+.box {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.box h1 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.container {
+  background-color: #666;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: left;
+  transition: all 0.5s;
+}
+
+.container:hover {
+  transform: translateY(-7px);
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: rgba(203, 194, 64, 0.935);
+  transition: all 0.3s ease;
+}
+
+.container h2:hover {
+  color: rgba(160, 151, 24, 0.935);
+}
+
+.container p {
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+}
